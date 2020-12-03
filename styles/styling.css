@@ -1,0 +1,85 @@
+html {
+	margin: 0%;
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+}
+
+/*header*/
+#header-image {
+	width: 100%;
+  	height: 350px;
+  	background-size: cover;
+}
+
+#header-title {
+	text-align: center;
+	height: 70px;
+}
+
+/* form on left side*/
+#content-form {
+	float: left;
+	font-size: 20px; 
+	background-color: #6ab7ba;
+	border-radius: 5px;
+  	padding: 20px;
+}
+
+input[type=text], select, input[type=date], select {
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+/*buttons for both form and table*/
+input[type=submit], input[type=reset], input[type=button]  {
+  	width: 100%;
+  	background-color: #3e989c;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+ 	 cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=reset]:hover {
+  	background-color: #2e8b8f;
+}
+
+/* table on right side*/
+#content-table {
+	float: right;
+	font-size: 20px; 
+	background-color: #6ab7ba;
+  	padding: 20px;  
+}
+
+#databasetable td, #databasetable th {
+  	border: 1px solid #ccc;
+  	padding: 8px;
+}
+
+#databasetable tr:nth-child(even){
+	background-color: #f7fcff;
+}
+#databasetable tr:nth-child(odd){
+	background-color: #a1e0e3;
+}
+
+#databasetable tr:hover {
+	background-color: #ccc;
+}
+
+#databasetable th {
+	padding-top: 12px;
+ 	padding-bottom: 12px;
+  	text-align: left;
+  	background-color: #6ab7ba;
+  	color: white;
+}
+
